@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: indianred;
+}
+
+main {
+    background-color: lightblue;
+    height: 100vh;
+    width: 600px;
+    margin: auto;
+}
+
+#theBird {
+    width: 50px;
+}
