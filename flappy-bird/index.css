@@ -4,12 +4,19 @@ body {
 }
 
 main {
+    background-image: url("img/bakgrunn.png");    
+    position: relative;
     background-color: lightblue;
-    height: 100vh;
-    width: 600px;
-    margin: auto;
+    height: 384px;
+    width: 288px;
+    margin: 100px auto;
+    overflow: hidden;
 }
 
 #theBird {
+    position: absolute;
+    left: 50px;
+    top: 100px;
     width: 50px;
+    user-select: none;
 }
